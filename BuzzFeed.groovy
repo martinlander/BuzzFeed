@@ -4,7 +4,7 @@
 def BF = []
 for(j=0;j<=99;j++) {
        BF[j] = j+1
-    if ((BF.getAt(j) % 15) == 0) {
+    if ((BF[j] % 15) == 0) {
         BF[j] = "Buzzfeed"
     } else if ((BF[j] % 5) == 0) {
         BF[j] = "Feed"
